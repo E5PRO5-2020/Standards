@@ -32,6 +32,10 @@ Det giver mest mening at følge typiske standarder for de sprog, vi bruger [med 
 		> Function names should be lowercase, with words separated by underscores as necessary to improve readability.
 		> Variable names follow the same convention as function names.
 
+- Benyt Exception handling, hvor fejl ellers kan få programmet til at stoppe, eller resultere i krævet genstart af Gateway. Se bl.a. [Py 3.5 Tutorial on Errors](https://docs.python.org/3.5/tutorial/errors.html).
+	* Specificér den/de exception(s), som du vil fange, fx `except ValueError`. Skriv ikke bare en "blankocheck".
+	* Dokumentér tydeligt rationalet i koden; Fx hvad du forventer skal ske, og hvilke fejl der kan opstå.
+
 ### C/C++
 - Vi benytter [AU's kodestandard](https://blackboard.au.dk/bbcswebdav/pid-1817350-dt-content-rid-5205395_1/courses/BB-Cou-UUVA-78333/BB-Cou-UUVA-54474_ImportedContent_20170612103145/BB-Cou-UUVA-62537_ImportedContent_20160606015213/Programmeringsstandard_UK.pdf).
 
